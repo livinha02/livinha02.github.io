@@ -204,7 +204,7 @@
       <div class="card small-card">
         <div class="card-body">
           <h5 class="card-title">Lançados Recentemente</h5>
-          <a href="/recentes" class="btn btn-outline-dark">Ver Mais</a>
+          <a href="#" class="btn btn-outline-dark">Ver Mais</a>
         </div>
       </div>
     </div>

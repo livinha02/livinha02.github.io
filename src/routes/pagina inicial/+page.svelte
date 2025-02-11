@@ -24,12 +24,7 @@
      animation: trocaImagem 10s infinite alternate;
     }
    
-    /* Animação para trocar imagens de fundo */
-    @keyframes trocaImagem {
-     0% { background-image: url('/doramaslog.jpg'); }
-     50% { background-image: url('/imagens/dorama2.jpg'); }
-     100% { background-image: url('/imagens/dorama3.jpg'); }
-    }
+   
    
     /* Estilo do formulário */
     .login-box {
@@ -83,7 +78,7 @@
      <input class="form-control mb-3" type="password" bind:value={senha} placeholder="Digite sua senha" />
      <button class="btn btn-custom w-100" on:click={realizarLogin}>Entrar</button>
      <p class="mensagem">{mensagem}</p>
-     <a href="/outra-pagina" class="link-pequeno">Entrar sem login</a>
+    
     </div>
    </div>
    
